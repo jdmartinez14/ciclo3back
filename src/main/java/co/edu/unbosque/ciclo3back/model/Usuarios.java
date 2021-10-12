@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Usuarios {
 	
 	@Id // Indica que el atributo siguiente es la llave primaria definida en la tabla
-	private long cedula_usuario;
+	private Long cedula_usuario;
 	private String nombre_usuario;
 	private String email_usuario;
 	private String usuario;
@@ -15,10 +15,10 @@ public class Usuarios {
 	
 	// Getters and Setters
 	
-	public long getCedula_usuario() {
+	public Long getCedula_usuario() {
 		return cedula_usuario;
 	}
-	public void setCedula_usuario(long cedula_usuario) {
+	public void setCedula_usuario(Long cedula_usuario) {
 		this.cedula_usuario = cedula_usuario;
 	}
 	public String getNombre_usuario() {
